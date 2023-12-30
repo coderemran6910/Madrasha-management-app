@@ -4,10 +4,10 @@ import App from "../App";
 const ManiLayout = () => {
   const menus = (
     <>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About us</NavLink>
-      <NavLink to="/contact">Contact Us</NavLink>
-      <NavLink to="/Login">Login</NavLink>
+      <NavLink className="btn btn-ghost" to="/">Home</NavLink>
+      <NavLink className="btn btn-ghost" to="/about">About us</NavLink>
+      <NavLink className="btn btn-ghost" to="/contact">Contact Us</NavLink>
+      <NavLink className="btn btn-ghost" to="/Login">Login</NavLink>
     </>
   );
   return (
@@ -15,7 +15,8 @@ const ManiLayout = () => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-300">
+        <div className="w-full  navbar bg-base-300">
+          <div className="w-full container mx-auto">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"
@@ -43,6 +44,7 @@ const ManiLayout = () => {
               {/* Navbar menu content here */}
               {menus}
             </ul>
+          </div>
           </div>
         </div>
         {/* Page content here */}
