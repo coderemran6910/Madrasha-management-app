@@ -1,5 +1,4 @@
 import {
-    RxCrop,
     RxDesktop,
     RxPencil2,
     RxReader,
@@ -16,9 +15,9 @@ import {
   
   export const ServiceData = [
     {
-      icon: RxCrop,
-      title: "Development",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
+      icon: RxAccessibility,
+      title: "Student information",
+      content: "Do you need any student information? Click here to get it now.",
       backgroundImage: SpaceCity9,
     },
     {
